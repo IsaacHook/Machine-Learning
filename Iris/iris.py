@@ -73,7 +73,7 @@ fig.suptitle('Algorithm Comparison')
 ax = fig.add_subplot(111)
 plt.boxplot(results)
 ax.set_xticklabels(names)
-# plt.show()
+plt.show()
 
 # Test model on validation set
 knn = KNeighborsClassifier()
